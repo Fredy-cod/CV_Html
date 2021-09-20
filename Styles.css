@@ -1,55 +1,71 @@
 * {
-    background-color: #badc58;
+    background-color: #dff9fb;
     margin: 0;
     padding: 0;
 }
 
 .all {
-    background-color: #cdc9c9;
-    display:block;
-    font-family:sans-serif;
+    display: block;
     text-align: center;
-    width: 960px;
-    margin: 15px auto;
+    width: 80% auto;
+    margin: 20px;
 }
 
-.pageTitle {
-    background:cornflowerblue;
-    
-    margin: 5px auto;
-    padding: 2px;
+.pageTitle h1 {
+    font-size: 37px;
+    background-color: #badc58;
+    padding: 10px;
+    margin: 5px;
 }
 
 .menu li {
-    background: cyan;
-    border: 2px solid magenta;
+    border: 1px solid black;
     display: inline-block;
     padding: 3px;
-    margin: 2px auto;
+    margin: 5px;
     font-weight: bold;
 }
 
 .content {
     text-align: left;
-    background-color: mediumaquamarine;
-    column-count: 2;
-    column-rule: 1px solid black;
     margin: 5px;
     padding: 5px;
 }
 
 .presentation {
-    text-align: right;
-    background-color: mediumspringgreen;
+    border-style: double;
+    float:left;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
 }
 
-.contentInfo section {
-    margin: 2px;
-    padding: 4px;
+.presentation .pText {
+    margin: 5px;
+    padding: 5px;
+}
+
+.developing {
+    float:left;
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.developing li{
+    margin: 5px;
+    padding: 5px;
+}
+
+.contentInfo ul {
+    list-style: none;
 }
 
 .footer {
-    margin: 2px;
-    padding: 4px;
-    background:tomato;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    background:black;
+    border: 1px dotted white;
+    clear: both;
 }
