@@ -1,32 +1,43 @@
-* {
+body {
     background-color: #dff9fb;
     margin: 0;
     padding: 0;
 }
 
 .all {
+    background-color: #dffabd;
     display: block;
     text-align: center;
-    width: 80% auto;
-    margin: 20px;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .pageTitle h1 {
-    font-size: 37px;
+    font-size: 200%;
     background-color: #badc58;
     padding: 10px;
     margin: 5px;
 }
 
 .menu li {
-    border: 1px solid black;
     display: inline-block;
+}
+
+.menu li button {
+    background-color: #6ab04c;
+    border: 1px solid black;
     padding: 3px;
     margin: 5px;
     font-weight: bold;
 }
 
+.menu li button:hover {
+    background-color: darkgreen;
+}
+
 .content {
+    border: 1px solid black;
     text-align: left;
     margin: 5px;
     padding: 5px;
@@ -47,7 +58,7 @@
 
 .developing {
     float:left;
-    width: 60%;
+    width: 55%;
     margin: 10px;
     padding: 10px;
 }
@@ -57,8 +68,20 @@
     padding: 5px;
 }
 
+#myName {
+    text-align: center;
+    font-size: 200%;
+}
+
+
 .contentInfo ul {
     list-style: none;
+}
+
+.contentInfo li table, td, th {
+    border: 1px solid black;
+    margin: 0px;
+    padding: 2px;
 }
 
 .footer {
