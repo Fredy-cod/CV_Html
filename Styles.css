@@ -14,10 +14,15 @@ body {
 }
 
 .pageTitle h1 {
+    color:darkgreen;
     font-size: 200%;
     background-color: #badc58;
     padding: 10px;
     margin: 5px;
+}
+
+.menu {
+    text-align: right;
 }
 
 .menu li {
@@ -37,14 +42,13 @@ body {
 }
 
 .content {
-    border: 1px solid black;
+    border: 1px solid rgb(88, 83, 83);
     text-align: left;
     margin: 5px;
     padding: 5px;
 }
 
 .presentation {
-    border-style: double;
     float:left;
     width: 30%;
     margin: 10px;
@@ -58,7 +62,7 @@ body {
 
 .developing {
     float:left;
-    width: 55%;
+    width: 58%;
     margin: 10px;
     padding: 10px;
 }
@@ -73,22 +77,43 @@ body {
     font-size: 200%;
 }
 
+#work {
+    text-align: right;
+    color:darkblue;
+}
 
 .contentInfo ul {
     list-style: none;
 }
 
-.contentInfo li table, td, th {
+.contentInfo li {
+    text-align: left;
+}
+
+.contentInfo li td, th {
+    text-align: left;
     border: 1px solid black;
     margin: 0px;
     padding: 2px;
 }
 
-.footer {
+.contentInfo > ul > li > div {
     margin: 5px;
-    padding: 5px;
+    padding: 2;
+    background-color: cornsilk;
+}
+
+.contentInfo > ul > li > div > p, h5, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin: 3px;
+    padding: 8px;
     color: white;
     background:black;
     border: 1px dotted white;
     clear: both;
+    text-align: center;
 }
